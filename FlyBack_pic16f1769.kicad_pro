@@ -466,7 +466,7 @@
       "no_connect_dangling": "warning",
       "pin_not_connected": "error",
       "pin_not_driven": "error",
-      "pin_to_pin": "warning",
+      "pin_to_pin": "error",
       "power_pin_not_driven": "error",
       "same_local_global_label": "warning",
       "similar_label_and_power": "warning",
@@ -658,13 +658,18 @@
       {
         "filename": "FlyBack_pic16f1769.kicad_sch",
         "name": "FlyBack_pic16f1769",
-        "uuid": "00000000-0000-0000-0000-000000000000"
+        "uuid": "85fd1e61-7f7c-4adf-9ad3-eb5962af39d5"
       }
     ],
-    "used_designators": "",
+    "used_designators": "U1-2,#PWR1-8,J1-2,R1",
     "variants": []
   },
-  "sheets": [],
+  "sheets": [
+    [
+      "85fd1e61-7f7c-4adf-9ad3-eb5962af39d5",
+      "FlyBack_pic16f1769"
+    ]
+  ],
   "text_variables": {},
   "tuning_profiles": {
     "meta": {
