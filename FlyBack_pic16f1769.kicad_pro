@@ -661,13 +661,21 @@
         "uuid": "85fd1e61-7f7c-4adf-9ad3-eb5962af39d5"
       }
     ],
-    "used_designators": "U1-2,#PWR1-10,D1-5,T1-2,R1-22,J1-2,Q1,C1-10",
+    "used_designators": "U1-6,T1-2,#PWR1-13,D1-7,R1-45,J1-2,Q1,C1-50,Rost1-2,RBode1",
     "variants": []
   },
   "sheets": [
     [
       "85fd1e61-7f7c-4adf-9ad3-eb5962af39d5",
       "FlyBack_pic16f1769"
+    ],
+    [
+      "0be832fb-4352-40ec-9160-c6d16274ad73",
+      "Comp1"
+    ],
+    [
+      "b3af68bd-246f-4e85-8862-676fb544c4e8",
+      "Comp2"
     ]
   ],
   "text_variables": {},

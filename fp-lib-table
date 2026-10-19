@@ -2,4 +2,5 @@
 	(version 7)
 	(lib (name "kicad_api_lib") (type "KiCad") (uri "${KIPRJMOD}/kicad_api_libs/kicad_api_lib.pretty") (options "") (descr "Added by KiCad IPC API"))
 	(lib (name "user") (type "KiCad") (uri "${KIPRJMOD}/user") (options "") (descr ""))
+	(lib (name "user_pretty") (type "KiCad") (uri "${KIPRJMOD}/user/user.pretty") (options "") (descr ""))
 )

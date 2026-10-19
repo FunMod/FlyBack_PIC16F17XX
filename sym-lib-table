@@ -2,4 +2,8 @@
 	(version 7)
 	(lib (name "PIC16F1769-I_P") (type "KiCad") (uri "${KIPRJMOD}/kicad_api_libs/PIC16F1769-I_P.kicad_sym") (options "") (descr ""))
 	(lib (name "Transformer_PQ2020A_6+8") (type "KiCad") (uri "${KIPRJMOD}/user/Transformer_PQ2020A_6+8.kicad_sym") (options "") (descr ""))
+	(lib (name "ADUM3190ARQZ-RL7") (type "KiCad") (uri "${KIPRJMOD}/kicad_api_libs/ADUM3190ARQZ-RL7.kicad_sym") (options "") (descr ""))
+	(lib (name "LM431BIM3_NOPB") (type "KiCad") (uri "${KIPRJMOD}/kicad_api_libs/LM431BIM3_NOPB.kicad_sym") (options "") (descr ""))
+	(lib (name "SFH615A-3X009") (type "KiCad") (uri "${KIPRJMOD}/kicad_api_libs/SFH615A-3X009.kicad_sym") (options "") (descr ""))
+	(lib (name "user") (type "KiCad") (uri "${KIPRJMOD}/user/user.kicad_sym") (options "") (descr ""))
 )

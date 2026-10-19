@@ -1,0 +1,187 @@
+(kicad_symbol_lib
+  (version 20211014)
+  (generator export)
+  (symbol "ISOM8110DFSR_C48731588"
+    (in_bom yes)
+    (on_board yes)
+    (property
+      "Reference"
+      "U"
+      (id 0)
+      (at 0 7.62 0)
+      (effects (font (size 1.27 1.27) ) )
+    )
+    (property
+      "Value"
+      "ISOM8110DFSR"
+      (id 1)
+      (at 0 -7.62 0)
+      (effects (font (size 1.27 1.27) ) )
+    )
+    (property
+      "Footprint"
+      "user:ISOM8110DFSR_C48731588"
+      (id 2)
+      (at 0 -10.16 0)
+      (effects (font (size 1.27 1.27) ) hide)
+    )
+    (property
+      "Datasheet"
+      "https://item.szlcsc.com/datasheet/ISOM8110DFSR/51023364.html"
+      (id 3)
+      (at 0 -12.70 0)
+      (effects (font (size 1.27 1.27) ) hide)
+    )
+    (property
+      "Description"
+      "ISOM8110DFSR SOIC-4_L7.5-W3.6-P2.50-LS10.3-TL"
+      (id 4)
+      (at 0 -15.24 0)
+      (effects (font (size 1.27 1.27) ) hide)
+    )
+    (property
+      "LCSC Part"
+      "C48731588"
+      (id 5)
+      (at 0 -17.78 0)
+      (effects (font (size 1.27 1.27) ) hide)
+    )
+    (property
+      "Package"
+      "SOIC-4_L7.5-W3.6-P2.50-LS10.3-TL"
+      (id 6)
+      (at 0 -20.32 0)
+      (effects (font (size 1.27 1.27) ) hide)
+    )
+    (symbol "ISOM8110DFSR_C48731588_0_1"
+      (rectangle
+        (start -7.62 4.32)
+        (end 5.08 -4.32)
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type background))
+      )
+    (polyline
+      (pts
+        (xy -7.6200 2.5400)
+        (xy -4.3180 2.5400)
+        (xy -4.3180 -2.5400)
+        (xy -7.6200 -2.5400)
+      )
+      (stroke (width 0.2540) (type default))
+      (fill (type none))
+    )
+    (polyline
+      (pts
+        (xy -2.2860 -1.2700)
+        (xy -6.3500 -1.2700)
+      )
+      (stroke (width 0.2540) (type default))
+      (fill (type none))
+    )
+    (polyline
+      (pts
+        (xy -1.5240 0.7620)
+        (xy 0.2540 -1.0160)
+      )
+      (stroke (width 0.2540) (type default))
+      (fill (type none))
+    )
+    (polyline
+      (pts
+        (xy -2.2860 -0.2540)
+        (xy -0.5080 -2.0320)
+      )
+      (stroke (width 0.2540) (type default))
+      (fill (type none))
+    )
+    (polyline
+      (pts
+        (xy 2.5400 2.2860)
+        (xy 2.5400 -2.2860)
+      )
+      (stroke (width 0.2540) (type default))
+      (fill (type none))
+    )
+    (polyline
+      (pts
+        (xy 2.5400 -0.7620)
+        (xy 5.0800 -2.5400)
+      )
+      (stroke (width 0.2540) (type default))
+      (fill (type none))
+    )
+    (polyline
+      (pts
+        (xy 5.0800 2.5400)
+        (xy 2.5400 0.7620)
+      )
+      (stroke (width 0.2540) (type default))
+      (fill (type none))
+    )
+    (polyline
+      (pts
+        (xy -5.8420 1.2700)
+        (xy -4.3180 -1.2700)
+        (xy -2.5400 1.2700)
+        (xy -5.8420 1.2700)
+      )
+      (stroke (width 0.2540) (type default))
+      (fill (type outline))
+    )
+    (polyline
+      (pts
+        (xy 0.2540 -1.0160)
+        (xy -0.2540 0.0000)
+        (xy -0.7620 -0.5080)
+        (xy 0.2540 -1.0160)
+      )
+      (stroke (width 0.2540) (type default))
+      (fill (type outline))
+    )
+    (polyline
+      (pts
+        (xy -0.5080 -2.0320)
+        (xy -1.0160 -1.0160)
+        (xy -1.5240 -1.5240)
+        (xy -0.5080 -2.0320)
+      )
+      (stroke (width 0.2540) (type default))
+      (fill (type outline))
+    )
+    (polyline
+      (pts
+        (xy 5.0800 -2.5400)
+        (xy 4.3180 -1.2700)
+        (xy 3.5560 -2.2860)
+      )
+      (stroke (width 0.2540) (type default))
+      (fill (type outline))
+    )
+      (pin passive line
+        (at 10.16 2.54 180)
+        (length 5.08)
+        (name "COL" (effects (font (size 1.27 1.27))))
+        (number "4" (effects (font (size 1.27 1.27))))
+      )
+      (pin passive line
+        (at 10.16 -2.54 180)
+        (length 5.08)
+        (name "EM" (effects (font (size 1.27 1.27))))
+        (number "3" (effects (font (size 1.27 1.27))))
+      )
+      (pin passive line
+        (at -12.70 -2.54 0)
+        (length 5.08)
+        (name "CAT" (effects (font (size 1.27 1.27))))
+        (number "2" (effects (font (size 1.27 1.27))))
+      )
+      (pin passive line
+        (at -12.70 2.54 0)
+        (length 5.08)
+        (name "AN" (effects (font (size 1.27 1.27))))
+        (number "1" (effects (font (size 1.27 1.27))))
+      )
+    )
+  )
+
+)
