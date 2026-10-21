@@ -661,7 +661,7 @@
         "uuid": "85fd1e61-7f7c-4adf-9ad3-eb5962af39d5"
       }
     ],
-    "used_designators": "U1-6,T1-2,#PWR1-23,D1-9,R1-55,J1-2,Q1,C1-66,Rost1-2,RBode1,Rled1,TP1-3,Rz1",
+    "used_designators": "U1-6,T1-2,#PWR1-35,D1-12,#FLG1-6,R1-63,J1-2,Q1-3,C1-66,Rost1-2,RBode1,Rled1,TP1-10,Rz1,CN1-6",
     "variants": []
   },
   "sheets": [
@@ -676,6 +676,14 @@
     [
       "b3af68bd-246f-4e85-8862-676fb544c4e8",
       "Comp2"
+    ],
+    [
+      "935e2702-7149-4698-a5d7-4aed7d05578e",
+      "Driver"
+    ],
+    [
+      "ae3c856f-fb2f-48af-86d3-9d8d7b32d59e",
+      "Start Up"
     ]
   ],
   "text_variables": {},
