@@ -13,4 +13,5 @@
 	(lib (name "BSP129") (type "KiCad") (uri "${KIPRJMOD}/kicad_api_libs/BSP129.kicad_sym") (options "") (descr ""))
 	(lib (name "TLV70450DBVR") (type "KiCad") (uri "${KIPRJMOD}/kicad_api_libs/TLV70450DBVR.kicad_sym") (options "") (descr ""))
 	(lib (name "MBRA340T3G") (type "KiCad") (uri "${KIPRJMOD}/kicad_api_libs/MBRA340T3G.kicad_sym") (options "") (descr ""))
+	(lib (name "TYPE-C-31-M-12") (type "KiCad") (uri "${KIPRJMOD}/kicad_api_libs/TYPE-C-31-M-12.kicad_sym") (options "") (descr ""))
 )

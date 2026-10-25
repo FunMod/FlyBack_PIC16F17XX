@@ -52,8 +52,8 @@
         "zones": {
           "border_display_style": 2,
           "border_hatch_pitch": 0.5,
-          "corner_radius": 0.0,
-          "corner_smoothing": 0,
+          "corner_radius": 0.2,
+          "corner_smoothing": 2,
           "fill_mode": 0,
           "hatch_gap": 1.5,
           "hatch_orientation": 0.0,
@@ -63,13 +63,19 @@
           "min_clearance": 0.5,
           "min_island_area": 10.0,
           "min_thickness": 0.25,
-          "pad_connection": 1,
+          "pad_connection": 2,
           "remove_islands": 0,
           "thermal_relief_gap": 0.5,
-          "thermal_relief_spoke_width": 0.5
+          "thermal_relief_spoke_width": 1.0
         }
       },
-      "diff_pair_dimensions": [],
+      "diff_pair_dimensions": [
+        {
+          "gap": 0.0,
+          "via_gap": 0.0,
+          "width": 0.0
+        }
+      ],
       "drc_exclusions": [],
       "meta": {
         "version": 2
@@ -144,7 +150,7 @@
         "min_connection": 0.0,
         "min_copper_edge_clearance": 0.5,
         "min_groove_width": 0.0,
-        "min_hole_clearance": 0.25,
+        "min_hole_clearance": 0.2,
         "min_hole_to_hole": 0.25,
         "min_microvia_diameter": 0.2,
         "min_microvia_drill": 0.1,
@@ -203,7 +209,35 @@
           "td_width_to_size_filter_ratio": 0.9
         }
       ],
-      "track_widths": [],
+      "track_widths": [
+        0.0,
+        0.1016,
+        0.1524,
+        0.2032,
+        0.254,
+        0.3048,
+        0.3556,
+        0.4064,
+        0.4572,
+        0.508,
+        0.5588,
+        0.6096,
+        0.6604,
+        0.7112,
+        0.762,
+        0.8128,
+        0.8636,
+        0.9144,
+        0.9652,
+        1.016,
+        1.0668,
+        1.1176,
+        1.1684,
+        1.2192,
+        1.27,
+        1.5,
+        2.5
+      ],
       "tuning_pattern_settings": {
         "diff_pair_defaults": {
           "corner_radius_percentage": 80,
@@ -230,7 +264,40 @@
           "spacing": 0.6
         }
       },
-      "via_dimensions": [],
+      "via_dimensions": [
+        {
+          "diameter": 0.0,
+          "drill": 0.0
+        },
+        {
+          "diameter": 0.3,
+          "drill": 0.15
+        },
+        {
+          "diameter": 0.45,
+          "drill": 0.3
+        },
+        {
+          "diameter": 0.5,
+          "drill": 0.25
+        },
+        {
+          "diameter": 0.6,
+          "drill": 0.3
+        },
+        {
+          "diameter": 0.8,
+          "drill": 0.4
+        },
+        {
+          "diameter": 1.0,
+          "drill": 0.5
+        },
+        {
+          "diameter": 1.2,
+          "drill": 0.6
+        }
+      ],
       "zones_allow_external_fillets": false
     },
     "ipc2581": {
@@ -661,7 +728,7 @@
         "uuid": "85fd1e61-7f7c-4adf-9ad3-eb5962af39d5"
       }
     ],
-    "used_designators": "U1-6,T1-2,#PWR1-35,D1-12,#FLG1-6,R1-63,J1-2,Q1-3,C1-66,Rost1-2,RBode1,Rled1,TP1-10,Rz1,CN1-6",
+    "used_designators": "U1-9,T1-2,#PWR1-65,D1-12,#FLG1-6,R1-71,J1-2,Q1-3,C1-67,Rost1-2,RBode1,Rled1,TP1-13,Rz1,CN1-6",
     "variants": []
   },
   "sheets": [
@@ -684,6 +751,10 @@
     [
       "ae3c856f-fb2f-48af-86d3-9d8d7b32d59e",
       "Start Up"
+    ],
+    [
+      "be07de01-cb3d-4147-b4df-a04e1507e523",
+      "USB"
     ]
   ],
   "text_variables": {},
