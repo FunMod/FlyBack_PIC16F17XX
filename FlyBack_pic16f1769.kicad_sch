@@ -5242,6 +5242,12 @@
 		(uuid "3f9c54aa-e406-45c2-b5e3-4d9155a037d5")
 	)
 	(junction
+		(at 57.15 33.02)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "47b93034-67ab-4b7f-a9f3-d05749083b1f")
+	)
+	(junction
 		(at 146.05 153.67)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5606,6 +5612,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "db3123d9-da8a-4992-89cf-770e36760573")
+	)
+	(junction
+		(at 31.75 148.59)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e2132354-c882-4bf9-b568-d36cdfe913a3")
 	)
 	(junction
 		(at 68.58 19.05)
@@ -6897,6 +6909,16 @@
 	)
 	(wire
 		(pts
+			(xy 31.75 148.59) (xy 31.75 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "52d38c77-04ef-4f54-8ea1-23f01ed6b680")
+	)
+	(wire
+		(pts
 			(xy 176.53 36.83) (xy 176.53 72.39)
 		)
 		(stroke
@@ -6947,7 +6969,7 @@
 	)
 	(wire
 		(pts
-			(xy 31.75 149.86) (xy 31.75 147.32)
+			(xy 31.75 149.86) (xy 31.75 148.59)
 		)
 		(stroke
 			(width 0)
@@ -7457,7 +7479,7 @@
 	)
 	(wire
 		(pts
-			(xy 48.26 33.02) (xy 68.58 33.02)
+			(xy 48.26 33.02) (xy 57.15 33.02)
 		)
 		(stroke
 			(width 0)
@@ -8084,6 +8106,16 @@
 			(type default)
 		)
 		(uuid "a808f065-d20e-4cee-bd69-d574352b8465")
+	)
+	(wire
+		(pts
+			(xy 57.15 33.02) (xy 68.58 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a8786596-0cc4-4150-b341-5fee4e4bf65f")
 	)
 	(wire
 		(pts
@@ -10379,6 +10411,83 @@
 			(project "FlyBack_pic16f1769"
 				(path "/85fd1e61-7f7c-4adf-9ad3-eb5962af39d5"
 					(reference "C8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 31.75 148.59 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1202bb08-ca03-4d07-91db-a14cc511229c")
+		(property "Reference" "TP15"
+			(at 28.448 143.51 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 28.448 146.05 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Keystone_5005-5009_Compact"
+			(at 31.75 143.51 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 31.75 143.51 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 31.75 148.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "554b9f17-2671-4875-91d9-9ee969556001")
+		)
+		(instances
+			(project "FlyBack_pic16f1769"
+				(path "/85fd1e61-7f7c-4adf-9ad3-eb5962af39d5"
+					(reference "TP15")
 					(unit 1)
 				)
 			)
@@ -18674,6 +18783,85 @@
 			(project "FlyBack_pic16f1769"
 				(path "/85fd1e61-7f7c-4adf-9ad3-eb5962af39d5"
 					(reference "C64")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 57.15 33.02 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cd79cb7f-71c8-4238-ba88-5322387af33b")
+		(property "Reference" "TP14"
+			(at 59.69 35.0519 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "GND"
+			(at 59.69 37.5919 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Keystone_5005-5009_Compact"
+			(at 52.07 33.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 52.07 33.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 57.15 33.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "461164b5-787d-4b98-b873-ee661169d7bb")
+		)
+		(instances
+			(project "FlyBack_pic16f1769"
+				(path "/85fd1e61-7f7c-4adf-9ad3-eb5962af39d5"
+					(reference "TP14")
 					(unit 1)
 				)
 			)

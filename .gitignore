@@ -43,3 +43,6 @@ fp-info-cache
 *.kicad_prl
 #HQ settings
 .hq
+dfm
+production
+database
