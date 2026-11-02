@@ -1,0 +1,106 @@
+{
+  "kind": "flyback-design",
+  "version": 1,
+  "units": {
+    "frequencyKHz": "kHz",
+    "voltage": "V",
+    "current": "A",
+    "bMax": "T",
+    "length": "mm",
+    "auditLuH": "µH"
+  },
+  "coreId": "EE 19/16",
+  "materialId": "N97",
+  "spec": {
+    "inputKind": "dc",
+    "vacMin": 85,
+    "vacMax": 265,
+    "vdcMin": 12,
+    "vdcMax": 36,
+    "bulkSag": 0.18,
+    "outputs": [
+      {
+        "id": "main",
+        "name": "主输出",
+        "voltage": 12,
+        "current": 0.5,
+        "diode": 0.5
+      },
+      {
+        "id": "o1793629214017",
+        "name": "辅路 1",
+        "voltage": 12,
+        "current": 0.05,
+        "diode": 0.7
+      }
+    ],
+    "efficiency": 0.75,
+    "mode": "DCM",
+    "rippleRatio": 0.45,
+    "idle": 0.2,
+    "dcmDepth": 0.9,
+    "dutyCap": 0.8,
+    "dutyMin": 0.1,
+    "crossVin": 0,
+    "vorMode": "manual",
+    "vorManual": 13,
+    "vdsRating": 100,
+    "vdsDerating": 0.8,
+    "spikeFactor": 0.3,
+    "iLimit": 0,
+    "bMax": 0.3,
+    "currentDensity": 4,
+    "ambient": 40,
+    "tempRiseLimit": 60,
+    "lossTemp": 100,
+    "cooling": "still",
+    "interleave": "PS",
+    "sections": [
+      {
+        "id": "ps-p",
+        "windingId": "pri",
+        "fraction": 1
+      },
+      {
+        "id": "ps-main",
+        "windingId": "main",
+        "fraction": 1
+      },
+      {
+        "id": "ps-o1793629214017",
+        "windingId": "o1793629214017",
+        "fraction": 1
+      }
+    ],
+    "tapeMm": 0.15,
+    "epsR": 3.6,
+    "wallMm": 0.8,
+    "flangeMm": 1,
+    "creepageMm": 3,
+    "wires": {},
+    "frequencyKHz": 100
+  },
+  "audit": {
+    "luH": "12.27",
+    "np": "8",
+    "gapMm": "0.157",
+    "ipkLimit": "",
+    "load": "",
+    "freqLaw": "fixed",
+    "wireMode": "hand",
+    "priMm": "0.455",
+    "priStrands": "3",
+    "secMm": {
+      "main": "0.455",
+      "o1793629214017": "0.18"
+    },
+    "secStrands": {
+      "main": "2",
+      "o1793629214017": "1"
+    },
+    "turns": {
+      "main": "8",
+      "o1793629214017": "8"
+    }
+  }
+}
